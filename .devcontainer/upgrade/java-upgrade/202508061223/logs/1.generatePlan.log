@@ -1,0 +1,8 @@
+2025-08-06T12:23:40.920Z [INFO] Saved working directory and index state On main: Stash changes before upgrade
+
+2025-08-06T12:23:41.014Z [INFO] There are  changed files found under "c:\Repos\spring-petclinic"
+2025-08-06T12:23:41.015Z [INFO] Project c:\Repos\spring-petclinic is a maven project, try to get java version from pom.xml
+2025-08-06T12:23:41.017Z [INFO] Java version: 17
+2025-08-06T12:23:41.018Z [INFO] Maven project detected.
+2025-08-06T12:23:41.018Z [INFO] Build tool type: mvnw
+2025-08-06T12:23:41.042Z [ERROR] JDK is not provided or detected for Java 17.

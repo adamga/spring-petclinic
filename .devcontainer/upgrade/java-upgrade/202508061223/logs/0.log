@@ -1,0 +1,77 @@
+2025-08-06T12:23:05.845Z [INFO] ----------------------invoke generate_upgrade_plan_for_java_project----------------------
+2025-08-06T12:23:05.845Z [INFO] options: {"input":{"projectPath":"c:\\Repos\\spring-petclinic","targetJavaVersion":"21","targetDependencies":["org.springframework.boot:*:3.2.12"],"sessionId":"202508061223"},"toolInvocationToken":{"sessionId":"1b916441-aaeb-4d65-903e-70b1dbff06fc"},"model":{"id":"claude-sonnet-4","vendor":"copilot","family":"claude-sonnet-4","version":"claude-sonnet-4","name":"Claude Sonnet 4","capabilities":{"supportsImageToText":true,"supportsToolCalling":true},"maxInputTokens":111836},"tokenizationOptions":{"tokenBudget":36691}}
+2025-08-06T12:23:40.750Z [INFO] Copilot user info:{
+  "access_type_sku": "copilot_enterprise_seat_multi_quota",
+  "analytics_tracking_id": "c0ff70566c1dbed1fbf3e2d90b2c9488",
+  "assigned_date": "2024-01-06T15:29:36-05:00",
+  "can_signup_for_limited": false,
+  "chat_enabled": true,
+  "copilot_plan": "enterprise",
+  "organization_login_list": [
+    "AGDefault1",
+    "ottawademonrcan1",
+    "microsoft",
+    "Azure",
+    "MicrosoftCopilot"
+  ],
+  "organization_list": [
+    {
+      "login": "AGDefault1",
+      "name": null
+    },
+    {
+      "login": "ottawademonrcan1",
+      "name": null
+    },
+    {
+      "login": "microsoft",
+      "name": "Microsoft"
+    },
+    {
+      "login": "Azure",
+      "name": "Microsoft Azure"
+    },
+    {
+      "login": "MicrosoftCopilot",
+      "name": "Copilot"
+    }
+  ],
+  "quota_reset_date": "2025-09-01",
+  "quota_snapshots": {
+    "chat": {
+      "entitlement": 0,
+      "overage_count": 0,
+      "overage_permitted": false,
+      "percent_remaining": 100,
+      "quota_id": "chat",
+      "quota_remaining": 0,
+      "remaining": 0,
+      "unlimited": true,
+      "timestamp_utc": "2025-08-06T12:23:40.348Z"
+    },
+    "completions": {
+      "entitlement": 0,
+      "overage_count": 0,
+      "overage_permitted": false,
+      "percent_remaining": 100,
+      "quota_id": "completions",
+      "quota_remaining": 0,
+      "remaining": 0,
+      "unlimited": true,
+      "timestamp_utc": "2025-08-06T12:23:40.348Z"
+    },
+    "premium_interactions": {
+      "entitlement": 1000,
+      "overage_count": 0,
+      "overage_permitted": true,
+      "percent_remaining": 94.89999999999999,
+      "quota_id": "premium_interactions",
+      "quota_remaining": 949,
+      "remaining": 949,
+      "unlimited": false,
+      "timestamp_utc": "2025-08-06T12:23:40.348Z"
+    }
+  }
+}
+2025-08-06T12:23:41.042Z [ERROR] error invoking tool generate_upgrade_plan_for_java_project: ValidationError: JDK is not provided or detected for Java 17. Please provide a valid JDK that is compatible with 17. You MUST ask the user to provide a valid JDK path if you can not find a available one by yourself.
+2025-08-06T12:23:41.043Z [INFO] ----------------------exit generate_upgrade_plan_for_java_project----------------------

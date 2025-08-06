@@ -1,0 +1,17 @@
+2025-08-06T12:31:44.069Z [INFO] Getting CVEs for dependencies: org.springframework.boot:spring-boot-starter-actuator:3.2.12,org.springframework.boot:spring-boot-starter:3.2.12,ch.qos.logback:logback-classic:1.4.14,org.springframework:spring-context:6.1.15,org.springframework:spring-core:6.1.15,org.hibernate.orm:hibernate-core:6.4.10.Final,org.apache.tomcat.embed:tomcat-embed-core:10.1.33,com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.4,com.zaxxer:HikariCP:5.0.1
+2025-08-06T12:31:44.069Z [INFO] getting CVEs for dependencies:
+ - org.springframework.boot:spring-boot-starter-actuator:3.2.12
+  - org.springframework.boot:spring-boot-starter:3.2.12
+  - ch.qos.logback:logback-classic:1.4.14
+  - org.springframework:spring-context:6.1.15
+  - org.springframework:spring-core:6.1.15
+  - org.hibernate.orm:hibernate-core:6.4.10.Final
+  - org.apache.tomcat.embed:tomcat-embed-core:10.1.33
+  - com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.4
+  - com.zaxxer:HikariCP:5.0.1...
+2025-08-06T12:31:44.070Z [INFO] getting gitHub access token...
+2025-08-06T12:31:44.071Z [INFO] listing CVEs for dependencies from GithHub...
+2025-08-06T12:31:44.505Z [INFO] found 9 CVEs for dependencies
+2025-08-06T12:31:44.506Z [INFO] grouping CVEs and finding min patched version by dep...
+2025-08-06T12:31:44.506Z [INFO] done getting CVEs for dependencies
+2025-08-06T12:31:44.506Z [INFO] Found 2 dependencies with known CVEs

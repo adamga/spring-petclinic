@@ -1,0 +1,27 @@
+2025-08-06T12:28:01.240Z [INFO] getting CVEs for dependencies:
+ - org.springframework.boot:spring-boot-starter-actuator:3.2.1
+  - org.springframework.boot:spring-boot-starter-cache:3.2.1
+  - org.springframework.boot:spring-boot-starter-data-jpa:3.2.1
+  - org.springframework.boot:spring-boot-starter-web:3.2.1
+  - org.springframework.boot:spring-boot-starter-validation:3.2.1
+  - org.springframework.boot:spring-boot-starter-thymeleaf:3.2.1
+  - org.springframework.boot:spring-boot-starter-test:3.2.1
+  - com.h2database:h2:2.2.224
+  - com.mysql:mysql-connector-j:8.1.0
+  - org.postgresql:postgresql:42.6.0
+  - javax.cache:cache-api:1.1.1
+  - com.github.ben-manes.caffeine:caffeine:3.1.8
+  - org.webjars.npm:bootstrap:5.3.2
+  - org.webjars.npm:font-awesome:4.7.0
+  - org.springframework.boot:spring-boot-devtools:3.2.1
+  - org.springframework.boot:spring-boot-testcontainers:3.2.1
+  - org.springframework.boot:spring-boot-docker-compose:3.2.1
+  - org.testcontainers:junit-jupiter:1.19.3
+  - org.testcontainers:mysql:1.19.3
+  - jakarta.xml.bind:jakarta.xml.bind-api:4.0.1
+  - java:*:17...
+2025-08-06T12:28:01.241Z [INFO] getting gitHub access token...
+2025-08-06T12:28:01.243Z [INFO] listing CVEs for dependencies from GithHub...
+2025-08-06T12:28:01.810Z [INFO] found 2 CVEs for dependencies
+2025-08-06T12:28:01.810Z [INFO] grouping CVEs and finding min patched version by dep...
+2025-08-06T12:28:01.811Z [INFO] done getting CVEs for dependencies

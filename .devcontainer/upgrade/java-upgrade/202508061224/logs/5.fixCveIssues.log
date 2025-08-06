@@ -1,0 +1,8 @@
+2025-08-06T12:30:46.948Z [INFO] [java-upgrade-202508061224 d92c2b0] Upgrade Spring Boot to version 3.2.12 for security fixes
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+2025-08-06T12:30:46.988Z [INFO] d92c2b078e680dfc04d8ee1ae6e3c21e89f493a0
+
+2025-08-06T12:30:47.036Z [INFO] 1	1	pom.xml
+
+2025-08-06T12:30:47.043Z [WARN] No changes about Upgrade Spring Boot to version 3.2.12 for security fixes for c:\Repos\spring-petclinic to commit.

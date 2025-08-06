@@ -1,0 +1,43 @@
+2025-08-06T12:30:47.045Z [INFO] [BaseBuildTool] Firing config modified event for mvnw, sleeping for 5 seconds
+2025-08-06T12:30:47.046Z [INFO] [Environment] Running command (Java 24): mvnw --version
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/C:/Users/adamga/.m2/wrapper/dists/apache-maven-3.9.5-bin/32db9c34/apache-maven-3.9.5/lib/jansi-2.4.0.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Apache Maven 3.9.5 (57804ffe001d7215b5e7bcb531cf83df38f93546)
+Maven home: C:\Users\adamga\.m2\wrapper\dists\apache-maven-3.9.5-bin\32db9c34\apache-maven-3.9.5
+Java version: 24.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-24
+Default locale: en_CA, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+2025-08-06T12:30:47.299Z [INFO] [BaseBuildTool] New version of mvnw: 3.9.5 -> 3.9.5
+2025-08-06T12:30:47.299Z [INFO] [MavenBuildTool] Getting Java version of c:\Repos\spring-petclinic from pom.xml
+2025-08-06T12:30:47.299Z [INFO] [MavenBuildTool] Searching for pom.xml files in c:\Repos\spring-petclinic
+2025-08-06T12:30:47.300Z [INFO] [MavenBuildTool] Getting modules of c:\Repos\spring-petclinic
+2025-08-06T12:30:47.300Z [INFO] [Environment] Running command (Java 24): mvnw help:evaluate -Dexpression=project.modules -q -DforceStdout
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/C:/Users/adamga/.m2/wrapper/dists/apache-maven-3.9.5-bin/32db9c34/apache-maven-3.9.5/lib/jansi-2.4.0.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/Users/adamga/.m2/wrapper/dists/apache-maven-3.9.5-bin/32db9c34/apache-maven-3.9.5/lib/guava-32.0.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+<modules/>2025-08-06T12:30:55.724Z [INFO] [MavenBuildTool] Found modules: 
+2025-08-06T12:30:55.724Z [INFO] [MavenBuildTool] Found pom.xml files: c:\Repos\spring-petclinic\pom.xml
+2025-08-06T12:30:55.733Z [INFO] [MavenBuildTool] Java version found in c:\Repos\spring-petclinic\pom.xml: 21
+2025-08-06T12:30:55.733Z [INFO] [BaseBuildTool] Notifying Java version/Config change: '21' || '21'
+2025-08-06T12:30:55.734Z [INFO] [MavenBuildTool] Getting build errors of c:\Repos\spring-petclinic using Maven
+2025-08-06T12:30:55.734Z [INFO] [Environment] Running command (Java 24): mvnw -Dencoding=UTF-8 clean test-compile -q -B -fn
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/C:/Users/adamga/.m2/wrapper/dists/apache-maven-3.9.5-bin/32db9c34/apache-maven-3.9.5/lib/jansi-2.4.0.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/Users/adamga/.m2/wrapper/dists/apache-maven-3.9.5-bin/32db9c34/apache-maven-3.9.5/lib/guava-32.0.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+2025-08-06T12:31:16.272Z [INFO] [MavenBuildTool] parsing compilation errors.
+2025-08-06T12:31:16.273Z [INFO] Build succeeded! There are no build errors in the project.

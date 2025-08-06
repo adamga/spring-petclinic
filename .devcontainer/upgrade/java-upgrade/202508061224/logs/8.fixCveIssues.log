@@ -1,0 +1,8 @@
+2025-08-06T12:32:01.605Z [INFO] [java-upgrade-202508061224 bd5564d] Override Tomcat version to 10.1.42 for CVE fixes
+ 1 file changed, 3 insertions(+)
+
+2025-08-06T12:32:01.647Z [INFO] bd5564dec0d5fe23212cebd1b501d8eef9124a3e
+
+2025-08-06T12:32:01.695Z [INFO] 3	0	pom.xml
+
+2025-08-06T12:32:01.702Z [WARN] No changes about Override Tomcat version to 10.1.42 for CVE fixes for c:\Repos\spring-petclinic to commit.

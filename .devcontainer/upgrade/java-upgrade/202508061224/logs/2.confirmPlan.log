@@ -1,0 +1,1125 @@
+2025-08-06T12:27:28.168Z [INFO] init session from plan.md file...
+2025-08-06T12:27:28.179Z [INFO] parsing plan.md...
+2025-08-06T12:27:28.180Z [INFO] getLLMClient: validating user selected model "claude-sonnet-4"
+2025-08-06T12:27:36.429Z [INFO] Model claude-sonnet-4 is valid
+2025-08-06T12:27:36.429Z [INFO] getLLMClient: user selected model "claude-sonnet-4" is valid
+2025-08-06T12:27:41.481Z [INFO] Successfully parsed plan.md to JSON:
+2025-08-06T12:27:41.482Z [INFO] {
+  "projectConfig": {
+    "name": "spring-petclinic",
+    "dir": "c:\\Repos\\spring-petclinic",
+    "jdk": {
+      "name": "java",
+      "path": "C:\\Program Files\\Java\\jdk-24\\bin",
+      "version": "17"
+    },
+    "buildTool": {
+      "name": "mvnw",
+      "path": "c:\\Repos\\spring-petclinic",
+      "version": "",
+      "defaultOptions": ""
+    }
+  },
+  "upgradeOptions": {
+    "target": {
+      "javaVersion": "21",
+      "dependencies": [
+        {
+          "groupId": "org.springframework.boot",
+          "artifactId": "*",
+          "version": "3.2.x"
+        }
+      ],
+      "jdk": {
+        "name": "java",
+        "path": "C:\\Program Files\\Java\\jdk-24\\bin",
+        "version": "21"
+      }
+    },
+    "workingBranch": "java-upgrade-202508061224",
+    "reuseBranch": false,
+    "runTests": true
+  }
+}
+2025-08-06T12:27:41.488Z [INFO] Project c:\Repos\spring-petclinic is a maven project, try to get java version from pom.xml
+2025-08-06T12:27:41.501Z [INFO] Java version: 17
+2025-08-06T12:27:41.501Z [INFO] Maven project detected.
+2025-08-06T12:27:41.501Z [INFO] Build tool type: mvnw
+2025-08-06T12:27:41.501Z [INFO] [Environment] Running command (Java 17): java -version
+java version "24.0.1" 2025-04-15
+Java(TM) SE Runtime Environment (build 24.0.1+9-30)
+Java HotSpot(TM) 64-Bit Server VM (build 24.0.1+9-30, mixed mode, sharing)
+2025-08-06T12:27:41.562Z [INFO] [JdkEnvironment] Got real Java version: 24.0.1
+2025-08-06T12:27:41.562Z [INFO] JDK: {"name":"java","path":"C:\\Program Files\\Java\\jdk-24\\bin","version":"24"}
+2025-08-06T12:27:41.563Z [INFO] [Environment] Running command (Java 24): mvnw --version
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/C:/Users/adamga/.m2/wrapper/dists/apache-maven-3.9.5-bin/32db9c34/apache-maven-3.9.5/lib/jansi-2.4.0.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Apache Maven 3.9.5 (57804ffe001d7215b5e7bcb531cf83df38f93546)
+Maven home: C:\Users\adamga\.m2\wrapper\dists\apache-maven-3.9.5-bin\32db9c34\apache-maven-3.9.5
+Java version: 24.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-24
+Default locale: en_CA, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+2025-08-06T12:27:41.838Z [INFO] Real build tool version: 3.9.5
+2025-08-06T12:27:41.838Z [INFO] Build tool: {"name":"mvnw","path":"c:\\Repos\\spring-petclinic","version":"3.9.5"}
+2025-08-06T12:27:41.839Z [INFO] Project config: {
+  "name": "spring-petclinic",
+  "dir": "c:\\Repos\\spring-petclinic",
+  "jdk": {
+    "name": "java",
+    "path": "C:\\Program Files\\Java\\jdk-24\\bin",
+    "version": "24"
+  },
+  "buildTool": {
+    "name": "mvnw",
+    "path": "c:\\Repos\\spring-petclinic",
+    "version": "3.9.5",
+    "defaultOptions": ""
+  }
+}
+2025-08-06T12:27:41.839Z [INFO] [MavenBuildTool] Getting build errors of c:\Repos\spring-petclinic using Maven
+2025-08-06T12:27:41.839Z [INFO] [Environment] Running command (Java 24): mvnw -Dencoding=UTF-8 clean test-compile -q -B -fn
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/C:/Users/adamga/.m2/wrapper/dists/apache-maven-3.9.5-bin/32db9c34/apache-maven-3.9.5/lib/jansi-2.4.0.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/Users/adamga/.m2/wrapper/dists/apache-maven-3.9.5-bin/32db9c34/apache-maven-3.9.5/lib/guava-32.0.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+2025-08-06T12:27:48.156Z [INFO] [MavenBuildTool] parsing compilation errors.
+2025-08-06T12:27:48.157Z [INFO] [Project spring-petclinic]: getting Java version.
+2025-08-06T12:27:48.157Z [INFO] [Project spring-petclinic]: reset Java version promise.
+2025-08-06T12:27:48.158Z [INFO] [MavenBuildTool] Getting Java version of c:\Repos\spring-petclinic from pom.xml
+2025-08-06T12:27:48.158Z [INFO] [MavenBuildTool] Searching for pom.xml files in c:\Repos\spring-petclinic
+2025-08-06T12:27:48.158Z [INFO] [MavenBuildTool] Getting modules of c:\Repos\spring-petclinic
+2025-08-06T12:27:48.158Z [INFO] [Environment] Running command (Java 24): mvnw help:evaluate -Dexpression=project.modules -q -DforceStdout
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/C:/Users/adamga/.m2/wrapper/dists/apache-maven-3.9.5-bin/32db9c34/apache-maven-3.9.5/lib/jansi-2.4.0.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/Users/adamga/.m2/wrapper/dists/apache-maven-3.9.5-bin/32db9c34/apache-maven-3.9.5/lib/guava-32.0.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+<modules/>2025-08-06T12:27:50.320Z [INFO] [MavenBuildTool] Found modules: 
+2025-08-06T12:27:50.320Z [INFO] [MavenBuildTool] Found pom.xml files: c:\Repos\spring-petclinic\pom.xml
+2025-08-06T12:27:50.321Z [INFO] [MavenBuildTool] Java version found in c:\Repos\spring-petclinic\pom.xml: 17
+2025-08-06T12:27:50.322Z [INFO] [Project spring-petclinic]: got Java version: 17
+2025-08-06T12:27:50.322Z [INFO] Source Java version: 17
+2025-08-06T12:27:50.322Z [INFO] [Project spring-petclinic]: getting dependencies promise.
+2025-08-06T12:27:50.322Z [INFO] [Project spring-petclinic]: reset dependencies promise.
+2025-08-06T12:27:50.322Z [INFO] [Environment] Running command (Java 24): mvnw dependency:tree -B
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/C:/Users/adamga/.m2/wrapper/dists/apache-maven-3.9.5-bin/32db9c34/apache-maven-3.9.5/lib/jansi-2.4.0.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/Users/adamga/.m2/wrapper/dists/apache-maven-3.9.5-bin/32db9c34/apache-maven-3.9.5/lib/guava-32.0.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.springframework.samples:spring-petclinic >------------
+[INFO] Building petclinic 3.2.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.6.1:tree (default-cli) @ spring-petclinic ---
+[INFO] org.springframework.samples:spring-petclinic:jar:3.2.0-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-actuator:jar:3.2.1:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:3.2.1:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:3.2.1:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.4.14:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.4.14:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.21.1:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:2.0.9:compile
+[INFO] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:2.2:compile
+[INFO] |  +- org.springframework.boot:spring-boot-actuator-autoconfigure:jar:3.2.1:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-actuator:jar:3.2.1:compile
+[INFO] |  |  \- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.3:compile
+[INFO] |  +- io.micrometer:micrometer-observation:jar:1.12.1:compile
+[INFO] |  |  \- io.micrometer:micrometer-commons:jar:1.12.1:compile
+[INFO] |  \- io.micrometer:micrometer-jakarta9:jar:1.12.1:compile
+[INFO] |     \- io.micrometer:micrometer-core:jar:1.12.1:compile
+[INFO] |        +- org.hdrhistogram:HdrHistogram:jar:2.1.12:runtime
+[INFO] |        \- org.latencyutils:LatencyUtils:jar:2.0.3:runtime
+[INFO] +- org.springframework.boot:spring-boot-starter-cache:jar:3.2.1:compile
+[INFO] |  \- org.springframework:spring-context-support:jar:6.1.2:compile
+[INFO] |     +- org.springframework:spring-beans:jar:6.1.2:compile
+[INFO] |     \- org.springframework:spring-context:jar:6.1.2:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-data-jpa:jar:3.2.1:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-aop:jar:3.2.1:compile
+[INFO] |  |  +- org.springframework:spring-aop:jar:6.1.2:compile
+[INFO] |  |  \- org.aspectj:aspectjweaver:jar:1.9.21:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-jdbc:jar:3.2.1:compile
+[INFO] |  |  +- com.zaxxer:HikariCP:jar:5.0.1:compile
+[INFO] |  |  \- org.springframework:spring-jdbc:jar:6.1.2:compile
+[INFO] |  +- org.hibernate.orm:hibernate-core:jar:6.4.1.Final:compile
+[INFO] |  |  +- jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile
+[INFO] |  |  +- jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.5.3.Final:compile
+[INFO] |  |  +- org.hibernate.common:hibernate-commons-annotations:jar:6.0.6.Final:runtime
+[INFO] |  |  +- io.smallrye:jandex:jar:3.1.2:runtime
+[INFO] |  |  +- com.fasterxml:classmate:jar:1.6.0:compile
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.14.10:runtime
+[INFO] |  |  +- org.glassfish.jaxb:jaxb-runtime:jar:4.0.4:runtime
+[INFO] |  |  |  \- org.glassfish.jaxb:jaxb-core:jar:4.0.4:runtime
+[INFO] |  |  |     +- org.eclipse.angus:angus-activation:jar:2.0.1:runtime
+[INFO] |  |  |     +- org.glassfish.jaxb:txw2:jar:4.0.4:runtime
+[INFO] |  |  |     \- com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime
+[INFO] |  |  +- jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime
+[INFO] |  |  \- org.antlr:antlr4-runtime:jar:4.13.0:compile
+[INFO] |  +- org.springframework.data:spring-data-jpa:jar:3.2.1:compile
+[INFO] |  |  +- org.springframework.data:spring-data-commons:jar:3.2.1:compile
+[INFO] |  |  +- org.springframework:spring-orm:jar:6.1.2:compile
+[INFO] |  |  +- org.springframework:spring-tx:jar:6.1.2:compile
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:2.0.9:compile
+[INFO] |  \- org.springframework:spring-aspects:jar:6.1.2:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:3.2.1:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:3.2.1:compile
+[INFO] |  |  \- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.3:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.1:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.17:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.17:compile
+[INFO] |  +- org.springframework:spring-web:jar:6.1.2:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:6.1.2:compile
+[INFO] |     \- org.springframework:spring-expression:jar:6.1.2:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-validation:jar:3.2.1:compile
+[INFO] |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.17:compile
+[INFO] |  \- org.hibernate.validator:hibernate-validator:jar:8.0.1.Final:compile
+[INFO] |     \- jakarta.validation:jakarta.validation-api:jar:3.0.2:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-thymeleaf:jar:3.2.1:compile
+[INFO] |  \- org.thymeleaf:thymeleaf-spring6:jar:3.1.2.RELEASE:compile
+[INFO] |     \- org.thymeleaf:thymeleaf:jar:3.1.2.RELEASE:compile
+[INFO] |        +- org.attoparser:attoparser:jar:2.0.7.RELEASE:compile
+[INFO] |        \- org.unbescape:unbescape:jar:1.1.6.RELEASE:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:3.2.1:test
+[INFO] |  +- org.springframework.boot:spring-boot-test:jar:3.2.1:test
+[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:3.2.1:test
+[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.8.0:test
+[INFO] |  +- net.minidev:json-smart:jar:2.5.0:test
+[INFO] |  |  \- net.minidev:accessors-smart:jar:2.5.0:test
+[INFO] |  |     \- org.ow2.asm:asm:jar:9.3:test
+[INFO] |  +- org.assertj:assertj-core:jar:3.24.2:test
+[INFO] |  +- org.awaitility:awaitility:jar:4.2.0:test
+[INFO] |  +- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter:jar:5.10.1:test
+[INFO] |  |  +- org.junit.jupiter:junit-jupiter-api:jar:5.10.1:test
+[INFO] |  |  |  +- org.opentest4j:opentest4j:jar:1.3.0:test
+[INFO] |  |  |  +- org.junit.platform:junit-platform-commons:jar:1.10.1:test
+[INFO] |  |  |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] |  |  +- org.junit.jupiter:junit-jupiter-params:jar:5.10.1:test
+[INFO] |  |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.10.1:test
+[INFO] |  |     \- org.junit.platform:junit-platform-engine:jar:1.10.1:test
+[INFO] |  +- org.mockito:mockito-core:jar:5.7.0:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.14.10:test
+[INFO] |  |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] |  +- org.mockito:mockito-junit-jupiter:jar:5.7.0:test
+[INFO] |  +- org.skyscreamer:jsonassert:jar:1.5.1:test
+[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO] |  +- org.springframework:spring-core:jar:6.1.2:compile
+[INFO] |  |  \- org.springframework:spring-jcl:jar:6.1.2:compile
+[INFO] |  +- org.springframework:spring-test:jar:6.1.2:test
+[INFO] |  \- org.xmlunit:xmlunit-core:jar:2.9.1:test
+[INFO] +- com.h2database:h2:jar:2.2.224:runtime
+[INFO] +- com.mysql:mysql-connector-j:jar:8.1.0:runtime
+[INFO] +- org.postgresql:postgresql:jar:42.6.0:runtime
+[INFO] |  \- org.checkerframework:checker-qual:jar:3.31.0:compile
+[INFO] +- javax.cache:cache-api:jar:1.1.1:compile
+[INFO] +- com.github.ben-manes.caffeine:caffeine:jar:3.1.8:compile
+[INFO] |  \- com.google.errorprone:error_prone_annotations:jar:2.21.1:compile
+[INFO] +- org.webjars.npm:bootstrap:jar:5.3.2:compile
+[INFO] +- org.webjars.npm:font-awesome:jar:4.7.0:compile
+[INFO] +- org.springframework.boot:spring-boot-devtools:jar:3.2.1:test
+[INFO] |  +- org.springframework.boot:spring-boot:jar:3.2.1:compile
+[INFO] |  \- org.springframework.boot:spring-boot-autoconfigure:jar:3.2.1:compile
+[INFO] +- org.springframework.boot:spring-boot-testcontainers:jar:3.2.1:test
+[INFO] |  \- org.testcontainers:testcontainers:jar:1.19.3:test
+[INFO] |     +- junit:junit:jar:4.13.2:test
+[INFO] |     |  \- org.hamcrest:hamcrest-core:jar:2.2:test
+[INFO] |     +- org.apache.commons:commons-compress:jar:1.24.0:test
+[INFO] |     +- org.rnorth.duct-tape:duct-tape:jar:1.0.8:test
+[INFO] |     |  \- org.jetbrains:annotations:jar:17.0.0:test
+[INFO] |     +- com.github.docker-java:docker-java-api:jar:3.3.4:test
+[INFO] |     \- com.github.docker-java:docker-java-transport-zerodep:jar:3.3.4:test
+[INFO] |        +- com.github.docker-java:docker-java-transport:jar:3.3.4:test
+[INFO] |        \- net.java.dev.jna:jna:jar:5.13.0:test
+[INFO] +- org.springframework.boot:spring-boot-docker-compose:jar:3.2.1:test
+[INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.15.3:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.15.3:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.15.3:compile
+[INFO] |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.3:compile
+[INFO] +- org.testcontainers:junit-jupiter:jar:1.19.3:test
+[INFO] +- org.testcontainers:mysql:jar:1.19.3:test
+[INFO] |  \- org.testcontainers:jdbc:jar:1.19.3:test
+[INFO] |     \- org.testcontainers:database-commons:jar:1.19.3:test
+[INFO] \- jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.1:compile
+[INFO]    \- jakarta.activation:jakarta.activation-api:jar:2.1.2:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.616 s
+[INFO] Finished at: 2025-08-06T08:27:52-04:00
+[INFO] ------------------------------------------------------------------------
+2025-08-06T12:27:52.912Z [INFO] [MavenBuildTool] Successfully got dependency tree of c:\Repos\spring-petclinic
+2025-08-06T12:27:52.913Z [INFO] [MavenBuildTool] Getting Java version of c:\Repos\spring-petclinic from pom.xml
+2025-08-06T12:27:52.913Z [INFO] [MavenBuildTool] Searching for pom.xml files in c:\Repos\spring-petclinic
+2025-08-06T12:27:52.913Z [INFO] [MavenBuildTool] Getting modules of c:\Repos\spring-petclinic
+2025-08-06T12:27:52.914Z [INFO] [Environment] Running command (Java 24): mvnw help:evaluate -Dexpression=project.modules -q -DforceStdout
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/C:/Users/adamga/.m2/wrapper/dists/apache-maven-3.9.5-bin/32db9c34/apache-maven-3.9.5/lib/jansi-2.4.0.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/Users/adamga/.m2/wrapper/dists/apache-maven-3.9.5-bin/32db9c34/apache-maven-3.9.5/lib/guava-32.0.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+<modules/>2025-08-06T12:27:55.142Z [INFO] [MavenBuildTool] Found modules: 
+2025-08-06T12:27:55.143Z [INFO] [MavenBuildTool] Found pom.xml files: c:\Repos\spring-petclinic\pom.xml
+2025-08-06T12:27:55.144Z [INFO] [MavenBuildTool] Java version found in c:\Repos\spring-petclinic\pom.xml: 17
+2025-08-06T12:27:55.144Z [INFO] No target dependencies found for Spring Boot. Skipping target dependency validation
+2025-08-06T12:27:55.144Z [WARN] No source dependencies found for Spring Framework. Skipping target dependency validation
+2025-08-06T12:27:55.144Z [WARN] No source dependencies found for Spring Security. Skipping target dependency validation
+2025-08-06T12:27:55.145Z [WARN] No source dependencies found for Jakarta EE. Skipping target dependency validation
+2025-08-06T12:27:55.145Z [WARN] No source dependencies found for JUnit. Skipping target dependency validation
+2025-08-06T12:27:55.145Z [INFO] Target Java version: 21
+2025-08-06T12:27:55.146Z [INFO] [Environment] Running command (Java 21): java -version
+java version "24.0.1" 2025-04-15
+Java(TM) SE Runtime Environment (build 24.0.1+9-30)
+Java HotSpot(TM) 64-Bit Server VM (build 24.0.1+9-30, mixed mode, sharing)
+2025-08-06T12:27:55.206Z [INFO] [JdkEnvironment] Got real Java version: 24.0.1
+2025-08-06T12:27:55.207Z [INFO] Target JDK: {"name":"java","path":"C:\\Program Files\\Java\\jdk-24\\bin","version":"24"}
+2025-08-06T12:27:55.207Z [INFO] Upgrade options: 2
+2025-08-06T12:28:01.813Z [INFO] Run tests before upgrading...
+2025-08-06T12:28:22.892Z [INFO] [Project spring-petclinic]: getting project state.
+2025-08-06T12:28:22.893Z [INFO] [Project spring-petclinic]: getting Java version.
+2025-08-06T12:28:22.893Z [INFO] [Project spring-petclinic]: got Java version: 17
+2025-08-06T12:28:22.894Z [INFO] [Project spring-petclinic]: getting dependencies promise.
+2025-08-06T12:28:22.894Z [INFO] Project initial state: {
+  "javaVersion": "17",
+  "dependencies": [
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-starter-actuator",
+      "type": "jar",
+      "version": "3.2.1",
+      "scope": "compile",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-starter-cache",
+      "type": "jar",
+      "version": "3.2.1",
+      "scope": "compile",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-starter-data-jpa",
+      "type": "jar",
+      "version": "3.2.1",
+      "scope": "compile",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-starter-web",
+      "type": "jar",
+      "version": "3.2.1",
+      "scope": "compile",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-starter-validation",
+      "type": "jar",
+      "version": "3.2.1",
+      "scope": "compile",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-starter-thymeleaf",
+      "type": "jar",
+      "version": "3.2.1",
+      "scope": "compile",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-starter-test",
+      "type": "jar",
+      "version": "3.2.1",
+      "scope": "test",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "com.h2database",
+      "artifactId": "h2",
+      "type": "jar",
+      "version": "2.2.224",
+      "scope": "runtime",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "com.mysql",
+      "artifactId": "mysql-connector-j",
+      "type": "jar",
+      "version": "8.1.0",
+      "scope": "runtime",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "org.postgresql",
+      "artifactId": "postgresql",
+      "type": "jar",
+      "version": "42.6.0",
+      "scope": "runtime",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "javax.cache",
+      "artifactId": "cache-api",
+      "type": "jar",
+      "version": "1.1.1",
+      "scope": "compile",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "com.github.ben-manes.caffeine",
+      "artifactId": "caffeine",
+      "type": "jar",
+      "version": "3.1.8",
+      "scope": "compile",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "org.webjars.npm",
+      "artifactId": "bootstrap",
+      "type": "jar",
+      "version": "5.3.2",
+      "scope": "compile",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "org.webjars.npm",
+      "artifactId": "font-awesome",
+      "type": "jar",
+      "version": "4.7.0",
+      "scope": "compile",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-devtools",
+      "type": "jar",
+      "version": "3.2.1",
+      "scope": "test",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-testcontainers",
+      "type": "jar",
+      "version": "3.2.1",
+      "scope": "test",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "org.springframework.boot",
+      "artifactId": "spring-boot-docker-compose",
+      "type": "jar",
+      "version": "3.2.1",
+      "scope": "test",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "org.testcontainers",
+      "artifactId": "junit-jupiter",
+      "type": "jar",
+      "version": "1.19.3",
+      "scope": "test",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "org.testcontainers",
+      "artifactId": "mysql",
+      "type": "jar",
+      "version": "1.19.3",
+      "scope": "test",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "jakarta.xml.bind",
+      "artifactId": "jakarta.xml.bind-api",
+      "type": "jar",
+      "version": "4.0.1",
+      "scope": "compile",
+      "module": "spring-petclinic"
+    },
+    {
+      "groupId": "java",
+      "artifactId": "*",
+      "version": "17"
+    }
+  ],
+  "compilationErrors": [],
+  "testResult": {
+    "errors": [],
+    "failures": [],
+    "summary": {
+      "tests": 45,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 2
+    },
+    "reports": [
+      {
+        "name": "org.springframework.samples.petclinic.vet.VetTests",
+        "time": 0.006,
+        "tests": 1,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "testSerialization",
+            "classname": "org.springframework.samples.petclinic.vet.VetTests",
+            "time": 0.005,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.samples.petclinic.vet.VetControllerTests",
+        "time": 0.289,
+        "tests": 2,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "testShowVetListHtml",
+            "classname": "org.springframework.samples.petclinic.vet.VetControllerTests",
+            "time": 0.017,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testShowResourcesVetList",
+            "classname": "org.springframework.samples.petclinic.vet.VetControllerTests",
+            "time": 0.07,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.samples.petclinic.system.CrashControllerTests",
+        "time": 0.001,
+        "tests": 1,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "testTriggerException",
+            "classname": "org.springframework.samples.petclinic.system.CrashControllerTests",
+            "time": 0.001,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.samples.petclinic.system.CrashControllerIntegrationTests",
+        "time": 0.716,
+        "tests": 2,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "testTriggerExceptionHtml",
+            "classname": "org.springframework.samples.petclinic.system.CrashControllerIntegrationTests",
+            "time": 0.053,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testTriggerExceptionJson",
+            "classname": "org.springframework.samples.petclinic.system.CrashControllerIntegrationTests",
+            "time": 0.077,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+        "time": 0.515,
+        "tests": 10,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "shouldFindVets",
+            "classname": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+            "time": 0.023,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "shouldFindOwnersByLastName",
+            "classname": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+            "time": 0.028,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "shouldAddNewVisitForPet",
+            "classname": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+            "time": 0.049,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "shouldUpdateOwner",
+            "classname": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+            "time": 0.017,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "shouldFindVisitsByPetId",
+            "classname": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+            "time": 0.01,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "shouldInsertPetIntoDatabaseAndGenerateId",
+            "classname": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+            "time": 0.023,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "shouldInsertOwner",
+            "classname": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+            "time": 0.009,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "shouldFindSingleOwnerWithPet",
+            "classname": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+            "time": 0.007,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "shouldUpdatePetName",
+            "classname": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+            "time": 0.008,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "shouldFindAllPetTypes",
+            "classname": "org.springframework.samples.petclinic.service.ClinicServiceTests",
+            "time": 0.003,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.samples.petclinic.PostgresIntegrationTests",
+        "time": 0.025,
+        "tests": 0,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0
+      },
+      {
+        "name": "org.springframework.samples.petclinic.PetClinicIntegrationTests",
+        "time": 5.446,
+        "tests": 2,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "testFindAll",
+            "classname": "org.springframework.samples.petclinic.PetClinicIntegrationTests",
+            "time": 0.175,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testOwnerDetails",
+            "classname": "org.springframework.samples.petclinic.PetClinicIntegrationTests",
+            "time": 0.231,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+        "time": 0.169,
+        "tests": 3,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "testProcessNewVisitFormHasErrors",
+            "classname": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+            "time": 0.026,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testProcessNewVisitFormSuccess",
+            "classname": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+            "time": 0.003,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testInitNewVisitForm",
+            "classname": "org.springframework.samples.petclinic.owner.VisitControllerTests",
+            "time": 0.005,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.samples.petclinic.owner.PetTypeFormatterTests",
+        "time": 0.02,
+        "tests": 3,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "shouldThrowParseException",
+            "classname": "org.springframework.samples.petclinic.owner.PetTypeFormatterTests",
+            "time": 0.016,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testPrint",
+            "classname": "org.springframework.samples.petclinic.owner.PetTypeFormatterTests",
+            "time": 0,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "shouldParse",
+            "classname": "org.springframework.samples.petclinic.owner.PetTypeFormatterTests",
+            "time": 0,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.samples.petclinic.owner.PetControllerTests",
+        "time": 0.232,
+        "tests": 6,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "testProcessCreationFormSuccess",
+            "classname": "org.springframework.samples.petclinic.owner.PetControllerTests",
+            "time": 0.013,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testProcessUpdateFormSuccess",
+            "classname": "org.springframework.samples.petclinic.owner.PetControllerTests",
+            "time": 0.005,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testInitUpdateForm",
+            "classname": "org.springframework.samples.petclinic.owner.PetControllerTests",
+            "time": 0.025,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testInitCreationForm",
+            "classname": "org.springframework.samples.petclinic.owner.PetControllerTests",
+            "time": 0.005,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testProcessCreationFormHasErrors",
+            "classname": "org.springframework.samples.petclinic.owner.PetControllerTests",
+            "time": 0.006,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testProcessUpdateFormHasErrors",
+            "classname": "org.springframework.samples.petclinic.owner.PetControllerTests",
+            "time": 0.01,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+        "time": 2.761,
+        "tests": 12,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "testProcessUpdateOwnerFormHasErrors",
+            "classname": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+            "time": 0.394,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testProcessCreationFormSuccess",
+            "classname": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+            "time": 0.007,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testInitFindForm",
+            "classname": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+            "time": 0.014,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testShowOwner",
+            "classname": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+            "time": 0.049,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testInitUpdateOwnerForm",
+            "classname": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+            "time": 0.01,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testInitCreationForm",
+            "classname": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+            "time": 0.006,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testProcessFindFormByLastName",
+            "classname": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+            "time": 0.005,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testProcessFindFormNoOwnersFound",
+            "classname": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+            "time": 0.006,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testProcessFindFormSuccess",
+            "classname": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+            "time": 0.012,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testProcessUpdateOwnerFormSuccess",
+            "classname": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+            "time": 0.003,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testProcessCreationFormHasErrors",
+            "classname": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+            "time": 0.006,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testProcessUpdateOwnerFormUnchangedSuccess",
+            "classname": "org.springframework.samples.petclinic.owner.OwnerControllerTests",
+            "time": 0.003,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.samples.petclinic.MySqlIntegrationTests",
+        "time": 0,
+        "tests": 2,
+        "errors": 0,
+        "skipped": 2,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "testFindAll",
+            "classname": "org.springframework.samples.petclinic.MySqlIntegrationTests",
+            "time": 0,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "skipped": {
+              "message": "disabledWithoutDocker is true and Docker is not available"
+            },
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          },
+          {
+            "name": "testOwnerDetails",
+            "classname": "org.springframework.samples.petclinic.MySqlIntegrationTests",
+            "time": 0,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "skipped": {
+              "message": "disabledWithoutDocker is true and Docker is not available"
+            },
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.samples.petclinic.model.ValidatorTests",
+        "time": 0.55,
+        "tests": 1,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "shouldNotValidateWhenFirstNameEmpty",
+            "classname": "org.springframework.samples.petclinic.model.ValidatorTests",
+            "time": 0.532,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      }
+    ]
+  }
+}
+2025-08-06T12:28:22.997Z [INFO] upgrade
+
+2025-08-06T12:28:23.093Z [ERROR] Switched to a new branch 'java-upgrade-202508061224'
+
+2025-08-06T12:28:23.097Z [INFO] Switched the working branch from upgrade to java-upgrade-202508061224
+2025-08-06T12:28:23.139Z [INFO] 516722647ae474746a84c197127e323135907d57
+
