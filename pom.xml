@@ -27,6 +27,9 @@
     <webjars-bootstrap.version>5.3.2</webjars-bootstrap.version>
     <webjars-font-awesome.version>4.7.0</webjars-font-awesome.version>
 
+    <!-- Override Tomcat version for security fixes -->
+    <tomcat.version>10.1.42</tomcat.version>
+
     <checkstyle.version>10.12.5</checkstyle.version>
     <jacoco.version>0.8.13</jacoco.version>
     <libsass.version>0.2.29</libsass.version>
